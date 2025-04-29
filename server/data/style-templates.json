@@ -1,0 +1,178 @@
+[
+  {
+    "style": "Cyberpunk",
+    "description": "Futuristic dystopian aesthetic with neon lights and high-tech elements",
+    "colors": {
+      "primary": "#31CCCC",
+      "secondary": "#FF0050",
+      "accent": "#7D1DFF",
+      "background": "#121212",
+      "text": "#FFFFFF"
+    },
+    "assets": ["neonSigns", "holoInterface", "cyberCharacters", "urbanScapes"],
+    "background": "neonCity",
+    "lighting": "dynamic",
+    "particles": ["rain", "smoke", "digitalGlitch"],
+    "soundProfile": {
+      "music": "synthwave",
+      "effects": "electronic",
+      "ambience": "cityNoise"
+    },
+    "fontStyle": "futuristic",
+    "uiStyle": "highTech"
+  },
+  {
+    "style": "Retro Synthwave",
+    "description": "80s-inspired aesthetic with sunset gradients and grid patterns",
+    "colors": {
+      "primary": "#FF56B1",
+      "secondary": "#B967FF",
+      "accent": "#01CDFE",
+      "background": "#2B213A",
+      "text": "#FFFFFF"
+    },
+    "assets": ["sunsetGrid", "retroCars", "palmTrees", "arcadeMachines"],
+    "background": "retroSunset",
+    "lighting": "gradient",
+    "particles": ["stars", "scanlines", "vhsNoise"],
+    "soundProfile": {
+      "music": "synthwave",
+      "effects": "retro8bit",
+      "ambience": "arcadeRoom"
+    },
+    "fontStyle": "retro",
+    "uiStyle": "outrun"
+  },
+  {
+    "style": "Pixel Art",
+    "description": "Nostalgic low-resolution pixel graphics with limited color palettes",
+    "colors": {
+      "primary": "#56FF83",
+      "secondary": "#FFE74C",
+      "accent": "#FF5964",
+      "background": "#17324F",
+      "text": "#FFFFFF"
+    },
+    "assets": ["pixelCharacters", "pixelItems", "pixelEnvironments", "pixelEffects"],
+    "background": "pixelLandscape",
+    "lighting": "simplified",
+    "particles": ["pixelDust", "pixelExplosion", "pixelRain"],
+    "soundProfile": {
+      "music": "chiptune",
+      "effects": "8bit",
+      "ambience": "bitReducedAtmosphere"
+    },
+    "fontStyle": "pixel",
+    "uiStyle": "pixelated"
+  },
+  {
+    "style": "Neon",
+    "description": "Vibrant neon colors on dark backgrounds with glowing elements",
+    "colors": {
+      "primary": "#FFDD00",
+      "secondary": "#FF00FF",
+      "accent": "#00FFFF",
+      "background": "#000000",
+      "text": "#FFFFFF"
+    },
+    "assets": ["neonShapes", "neonSigns", "neonCharacters", "glowEffects"],
+    "background": "darkCity",
+    "lighting": "glow",
+    "particles": ["sparkles", "neonTrail", "electricArcs"],
+    "soundProfile": {
+      "music": "electronica",
+      "effects": "synth",
+      "ambience": "electricHum"
+    },
+    "fontStyle": "neonGlow",
+    "uiStyle": "minimalistGlow"
+  },
+  {
+    "style": "Vaporwave",
+    "description": "Surreal 90s internet aesthetic with pastels and classic statues",
+    "colors": {
+      "primary": "#FF6AD5",
+      "secondary": "#C774E8",
+      "accent": "#AD8CFF",
+      "background": "#94D0FF",
+      "text": "#000000"
+    },
+    "assets": ["romanStatues", "palmTrees", "glitchEffects", "geometricShapes"],
+    "background": "gridPlane",
+    "lighting": "pastel",
+    "particles": ["glitchSquares", "slowWaves", "dolphins"],
+    "soundProfile": {
+      "music": "slowed80s",
+      "effects": "vhs",
+      "ambience": "mallSounds"
+    },
+    "fontStyle": "windows95",
+    "uiStyle": "retroOS"
+  },
+  {
+    "style": "Low Poly",
+    "description": "Simplified 3D models with flat colors and visible polygons",
+    "colors": {
+      "primary": "#4ECDC4",
+      "secondary": "#FF6B6B",
+      "accent": "#FFE66D",
+      "background": "#1A535C",
+      "text": "#F7FFF7"
+    },
+    "assets": ["lowPolyEnvironments", "lowPolyCharacters", "lowPolyProps", "lowPolyVehicles"],
+    "background": "lowPolyLandscape",
+    "lighting": "flat",
+    "particles": ["polygonShards", "lowPolyFire", "lowPolyWater"],
+    "soundProfile": {
+      "music": "electronic",
+      "effects": "simplified",
+      "ambience": "minimal"
+    },
+    "fontStyle": "minimal",
+    "uiStyle": "flat"
+  },
+  {
+    "style": "Cartoon",
+    "description": "Playful, exaggerated visuals with strong outlines and bright colors",
+    "colors": {
+      "primary": "#F9C80E",
+      "secondary": "#F86624",
+      "accent": "#43BCCD",
+      "background": "#662E9B",
+      "text": "#FFFFFF"
+    },
+    "assets": ["cartoonCharacters", "cartoonProps", "cartoonEnvironments", "comicEffects"],
+    "background": "cartoonWorld",
+    "lighting": "toon",
+    "particles": ["stars", "smoke", "impact"],
+    "soundProfile": {
+      "music": "playful",
+      "effects": "exaggerated",
+      "ambience": "cheerful"
+    },
+    "fontStyle": "comic",
+    "uiStyle": "rounded"
+  },
+  {
+    "style": "Fantasy",
+    "description": "Magical medieval world with mythical creatures and enchanted elements",
+    "colors": {
+      "primary": "#7A5C61",
+      "secondary": "#E8C547",
+      "accent": "#4A7B9D",
+      "background": "#3F5E5A",
+      "text": "#F0E2A4"
+    },
+    "assets": ["castles", "magicEffects", "fantasyCreatures", "medievalProps"],
+    "background": "enchantedForest",
+    "lighting": "magical",
+    "particles": ["magicDust", "leaves", "fireflies"],
+    "soundProfile": {
+      "music": "orchestral",
+      "effects": "magical",
+      "ambience": "nature"
+    },
+    "fontStyle": "medieval",
+    "uiStyle": "parchment"
+  }
+] 

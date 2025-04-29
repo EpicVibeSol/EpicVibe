@@ -1,0 +1,122 @@
+[
+  {
+    "type": "Racing",
+    "description": "Fast-paced racing game with customizable vehicles",
+    "mechanics": ["racing", "collision", "acceleration", "drift"],
+    "advancedMechanics": ["nitro", "obstacles", "aiOpponents", "weatherEffects"],
+    "difficulty": 2,
+    "defaultScenes": ["track", "garage", "podium"],
+    "playerModel": "car",
+    "cameraType": "thirdPerson",
+    "controls": {
+      "keyboard": ["arrows", "wasd"],
+      "gamepad": true,
+      "mobile": "tilt"
+    }
+  },
+  {
+    "type": "RPG",
+    "description": "Role-playing game with character progression and story",
+    "mechanics": ["combat", "inventory", "dialogue", "quests"],
+    "advancedMechanics": ["skillTree", "crafting", "factions", "worldEvents"],
+    "difficulty": 4,
+    "defaultScenes": ["world", "battle", "town", "inventory"],
+    "playerModel": "character",
+    "cameraType": "isometric",
+    "controls": {
+      "keyboard": ["arrows", "wasd", "numbers"],
+      "gamepad": true,
+      "mobile": "virtual-pad"
+    }
+  },
+  {
+    "type": "Puzzle",
+    "description": "Mind-bending puzzles with increasing difficulty",
+    "mechanics": ["match", "combine", "rotate", "solve"],
+    "advancedMechanics": ["timer", "specialItems", "hints", "unlockables"],
+    "difficulty": 3,
+    "defaultScenes": ["puzzle", "menu", "rewards"],
+    "playerModel": "cursor",
+    "cameraType": "fixed",
+    "controls": {
+      "keyboard": ["arrows", "space", "numbers"],
+      "gamepad": true,
+      "mobile": "touch"
+    }
+  },
+  {
+    "type": "Rhythm",
+    "description": "Music-based game with timing challenges",
+    "mechanics": ["beat", "sync", "combo", "score"],
+    "advancedMechanics": ["multiTrack", "visualEffects", "difficultyModifiers", "customTracks"],
+    "difficulty": 3,
+    "defaultScenes": ["stage", "songSelect", "results"],
+    "playerModel": "none",
+    "cameraType": "fixed",
+    "controls": {
+      "keyboard": ["arrows", "space", "letters"],
+      "gamepad": true,
+      "mobile": "touch"
+    }
+  },
+  {
+    "type": "Platform",
+    "description": "Jump and run through obstacles and enemies",
+    "mechanics": ["jump", "run", "collect", "avoid"],
+    "advancedMechanics": ["wallJump", "powerUps", "secretAreas", "bossFights"],
+    "difficulty": 2,
+    "defaultScenes": ["level", "map", "shop"],
+    "playerModel": "character",
+    "cameraType": "side-scrolling",
+    "controls": {
+      "keyboard": ["arrows", "space"],
+      "gamepad": true,
+      "mobile": "virtual-buttons"
+    }
+  },
+  {
+    "type": "Strategy",
+    "description": "Build and manage resources to overcome challenges",
+    "mechanics": ["build", "resource", "units", "research"],
+    "advancedMechanics": ["diplomacy", "weather", "terrain", "specialAbilities"],
+    "difficulty": 5,
+    "defaultScenes": ["map", "build", "tech", "diplomacy"],
+    "playerModel": "cursor",
+    "cameraType": "topDown",
+    "controls": {
+      "keyboard": ["arrows", "numbers", "hotkeys"],
+      "gamepad": true,
+      "mobile": "touch"
+    }
+  },
+  {
+    "type": "Shooter",
+    "description": "Fast-paced action with weapons and enemies",
+    "mechanics": ["shoot", "move", "cover", "reload"],
+    "advancedMechanics": ["weaponMods", "skillShots", "specialAmmo", "arenaEffects"],
+    "difficulty": 3,
+    "defaultScenes": ["arena", "loadout", "scoreboard"],
+    "playerModel": "character",
+    "cameraType": "firstPerson",
+    "controls": {
+      "keyboard": ["wasd", "mouse"],
+      "gamepad": true,
+      "mobile": "virtual-sticks"
+    }
+  },
+  {
+    "type": "Simulation",
+    "description": "Realistic simulation of activities or environments",
+    "mechanics": ["interact", "manage", "observe", "decide"],
+    "advancedMechanics": ["economy", "relationships", "events", "customization"],
+    "difficulty": 4,
+    "defaultScenes": ["main", "detail", "stats", "options"],
+    "playerModel": "various",
+    "cameraType": "multiple",
+    "controls": {
+      "keyboard": ["arrows", "numbers", "hotkeys"],
+      "gamepad": true,
+      "mobile": "touch"
+    }
+  }
+] 

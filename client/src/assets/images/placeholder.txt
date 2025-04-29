@@ -1,0 +1,8 @@
+This directory is for storing image assets for the EpicVibe project including:
+
+- Logo.png - Main project logo
+- controller.png - Game controller image for the hero section
+- Avatars for testimonials
+- Icons and other graphical elements
+
+Please add actual image files to replace this placeholder. 

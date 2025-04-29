@@ -1,0 +1,70 @@
+.btn {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border: none;
+}
+
+/* Button types */
+.btn-primary {
+  background: linear-gradient(90deg, #ff2e63 0%, #ff9a8b 100%);
+  color: white;
+  box-shadow: 0 2px 8px rgba(255, 46, 99, 0.3);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 46, 99, 0.4);
+}
+
+.btn-secondary {
+  background: linear-gradient(90deg, #0f3460 0%, #16213e 100%);
+  color: white;
+  box-shadow: 0 2px 8px rgba(15, 52, 96, 0.3);
+}
+
+.btn-secondary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(15, 52, 96, 0.4);
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid #ff2e63;
+  color: #ff2e63;
+}
+
+.btn-outline:hover {
+  background: rgba(255, 46, 99, 0.05);
+  transform: translateY(-2px);
+}
+
+/* Button sizes */
+.btn-small {
+  padding: 0.3rem 0.8rem;
+  font-size: 0.85rem;
+}
+
+.btn-medium {
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+}
+
+.btn-large {
+  padding: 0.7rem 1.8rem;
+  font-size: 1.1rem;
+}
+
+/* Disabled state */
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none !important;
+  box-shadow: none !important;
+} 
