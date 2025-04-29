@@ -1,7 +1,7 @@
 # EpicVibe
 
 <p align="center">
-  <img src="src/assets/Logo.png" alt="EpicVibe Logo" width="200"/>
+  <img src="Logo.png" alt="EpicVibe Logo" width="200"/>
 </p>
 
 <p align="center">
